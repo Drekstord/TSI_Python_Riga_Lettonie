@@ -1,6 +1,6 @@
 
 
-def compareFunc (x, y);
+def compareFunc (x, y):
     if x > y:
         return True
     else:
