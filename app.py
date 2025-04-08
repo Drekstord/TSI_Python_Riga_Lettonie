@@ -1,9 +1,5 @@
+x=27
 
+y = x^3
 
-def compareFunc (x, y):
-    if x > y:
-        return True
-    else:
-        return False
-
-print(compareFunc(2, 3))
+print(y)
