@@ -1,17 +1,14 @@
-ingredients: list = ["fromage", "pommes de terre", "charcuterie"]
-materiel : list = ["appareil à raclette", "couteau", "assiette"]
-
+# -*- coding: utf-8 -*-
 
 def Raclette(ingredients, materiel):
-    print("Raclette :")
-    print("Ingrédients :")
-    for ingredient in ingredients:
-        print("-", ingredient)
+    print("\nComment cuisiner la Raclette ?\n")
     
-    for item in materiel:
-        print("-", item)
-    
-    print("Bon appétit : ")
+    while True:
+        for i in ingredients:
+            print(f"- {i}")
+        for i in materiel:
+            print(f"- {i}")
+        break
+    print("Voilà !\n")
 
-
-Raclette(ingredients, materiel)
+Raclette(["fromage à raclette", "pommes de terre", "charcuterie", "cornichons"], ["casserole", "grille", "assiette"])
